@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+    width: 100vw;
+    padding: 20px;
+    background-color: rgb(250, 253, 255);
+}
+
+.navbar table {
+    height: 100%;
+}
+
+.navbar tr {
+    height: 100%;
+}
+
+.navbar td {
+    
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;   
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* hero */
+
+.hero{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    background-color: hsl(160, 100%, 88%);
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+
+
+.stv {
+    border-radius: 50%;
+    width: 150px;
+    margin: 30px;
+}
+
+.hero button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 20px;
+    padding: 5px;
+    width: 30%;
+    min-width: max-content;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* Projects */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.projects h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project img {
+    border-radius: 10px;
+}
+
+.project img:hover {
+    cursor: pointer;
+    transform: scale(102%);
+}
+
+.project .text {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text a {
+
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+.text p {
+    font-size: large;
+}
+
+.acc {
+    color: grey;
+    font-weight: lighter;
+}
+
+.contact {
+    background-color: aquamarine;
+    padding: 20px;
+}
